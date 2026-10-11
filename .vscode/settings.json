@@ -14,5 +14,8 @@
       "turbopack:///[project]/*": "${workspaceFolder}/*",
       "turbopack:///[turbopack]/*": "turbopack:///[turbopack]/*"
     }
-  }
+  },
+  "ionic.defaultPort": 3000,
+  "webnative.defaultPort": 3000,
+  "webnative.buildForProduction": true
 }

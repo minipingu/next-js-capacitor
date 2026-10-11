@@ -5,7 +5,7 @@ const config: CapacitorConfig = {
   appName: 'Next JS Capacitor',
   webDir: 'out',
   server: {
-    url: 'http://192.168.80.1:3000',
+    url: 'http://192.168.1.250:3000',
     cleartext: true,
   },
 };

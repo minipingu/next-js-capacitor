@@ -1,0 +1,10 @@
+{
+  "name": "next-js-capacitor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom",
+  "server": {
+    "defaultPort": 3000
+  }
+}
