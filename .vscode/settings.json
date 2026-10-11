@@ -1,0 +1,18 @@
+{
+  "debug.javascript.terminalOptions": {
+    "skipFiles": [
+      "<node_internals>/**",
+      "**/node_modules/**"
+    ],
+    "resolveSourceMapLocations": [
+      "${workspaceFolder}/**",
+      "!**/node_modules/**",
+      "!**/_next/**",
+      "!**/.next/**"
+    ],
+    "sourceMapPathOverrides": {
+      "turbopack:///[project]/*": "${workspaceFolder}/*",
+      "turbopack:///[turbopack]/*": "turbopack:///[turbopack]/*"
+    }
+  }
+}
