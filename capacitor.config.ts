@@ -1,11 +1,12 @@
 import type { CapacitorConfig } from '@capacitor/cli';
+import { localhostIp } from './localhost_ip';
 
 const config: CapacitorConfig = {
   appId: 'com.next_js_capacitor',
   appName: 'Next JS Capacitor',
   webDir: 'out',
   server: {
-    url: 'http://192.168.1.250:3000',
+    url: localhostIp,
     cleartext: true,
   },
   plugins: {

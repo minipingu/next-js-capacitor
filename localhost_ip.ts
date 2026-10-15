@@ -1,0 +1,1 @@
+export const localhostIp = "http://192.168.80.1:8100";

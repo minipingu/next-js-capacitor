@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
+import { localhostIp } from "./localhost_ip";
 
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
-  allowedDevOrigins: ["10.0.2.2", "192.168.1.250"],
+  allowedDevOrigins: [localhostIp],
   experimental: {
     agentFeedback: true,
   },
